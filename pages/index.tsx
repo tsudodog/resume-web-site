@@ -1,5 +1,6 @@
 import Header from "../components/Header/";
 import Hero from '../components/Hero'
+import About from './../components/About'
 const index = () => {
     return (
         <div className="bg-[rgb(36,36,36)] text-white 
@@ -11,10 +12,13 @@ const index = () => {
             <Header></Header>
 
             {/** Hero  */}
-            <section className="snap-center" id="hero">
+            <section className="snap-start" id="hero">
                 <Hero />
             </section>
             {/** About  */}
+            <section className="snap-center" id="about" >
+                <About/>
+            </section>
             {/** Experience  */}
 
             {/** Skills  */}
