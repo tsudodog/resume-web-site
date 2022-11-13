@@ -3,6 +3,7 @@ import Hero from '../components/Hero'
 import About from './../components/About'
 import Experience from "../components/Experience";
 import Skills from "../components/Skills";
+import Projects from "../components/Projects";
 const index = () => {
     return (
         <div className="bg-[rgb(36,36,36)] text-white 
@@ -27,10 +28,13 @@ const index = () => {
             </section>
 
             {/** Skills  */}
-            <section className="snap-center" id="skills">
+            <section className="snap-start" id="skills">
                 <Skills/>
             </section>
             {/** Projects  */}
+            <section className="snap-start" id="projects">
+                <Projects/>
+            </section>
             {/** Contact Me  */}
         </div>
     );
