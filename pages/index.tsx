@@ -1,6 +1,8 @@
 import Header from "../components/Header/";
 import Hero from '../components/Hero'
 import About from './../components/About'
+import Experience from "../components/Experience";
+import Skills from "../components/Skills";
 const index = () => {
     return (
         <div className="bg-[rgb(36,36,36)] text-white 
@@ -20,8 +22,14 @@ const index = () => {
                 <About/>
             </section>
             {/** Experience  */}
+            <section className="snap-center" id="experiences">
+                <Experience></Experience>
+            </section>
 
             {/** Skills  */}
+            <section className="snap-center" id="skills">
+                <Skills/>
+            </section>
             {/** Projects  */}
             {/** Contact Me  */}
         </div>
