@@ -4,6 +4,7 @@ import About from './../components/About'
 import Experience from "../components/Experience";
 import Skills from "../components/Skills";
 import Projects from "../components/Projects";
+import Contact from "../components/Contact";
 const index = () => {
     return (
         <div className="bg-[rgb(36,36,36)] text-white 
@@ -34,6 +35,9 @@ const index = () => {
             {/** Projects  */}
             <section className="snap-start" id="projects">
                 <Projects/>
+            </section>
+            <section className="snap-start" id="contact">
+                <Contact/>  
             </section>
             {/** Contact Me  */}
         </div>
